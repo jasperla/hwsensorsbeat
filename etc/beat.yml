@@ -1,0 +1,15 @@
+################### Hwsensorsbeat Configuration Example #########################
+
+############################# Hwsensorsbeat ######################################
+
+hwsensorsbeat:
+  # Defines how often an event is sent to the output
+  period: 1s
+
+  # MIBs to fetch below hw.sensors. By default everything is retrieved, however
+  # you can limit this to only `hw.sensors.cpu0` by specifying `cpu0` here.
+  # Currently only third level MIBs are checked (i.e. `cpu0` but not `cpu0.temp`),
+  # however it should eventually be possible to use expressions such as `*.temp`
+  mibs:
+    - cpu0
+    - acpithinkpad0

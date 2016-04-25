@@ -1,0 +1,4 @@
+beat_name: hwsensorsbeat
+beat_url: 'https://github.com/jasperla'
+beat_repo: 'github.com/jasperla'
+beat_description: Sends hw.sensors metrics to Logstash or directly to Elasticsearch.

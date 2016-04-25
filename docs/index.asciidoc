@@ -1,0 +1,5 @@
+= Hwsensorsbeat Docs
+
+Welcome to the Hwsensorsbeat documentation.
+
+
